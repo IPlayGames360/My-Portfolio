@@ -212,7 +212,7 @@ body {
 
 .openbtnText {
     background-color: #000000; color: white; padding-left: 58px; border: none; 
-	position: relative; top: 0; left: 0; z-index: 1109; height: 50px; width: 122px;
+	position: fixed; top: 0; left: 0; z-index: 1109; height: 50px; width: 122px;
 }
 
 .openbtnText h3 {
