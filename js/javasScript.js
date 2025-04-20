@@ -1,11 +1,11 @@
 function openNav() {
     document.getElementById("sidebar").classList.add("openSidebar");
-    document.querySelector(".openbtn").classList.add("rotateButton"); // Rotate button
+    document.querySelector(".openbtn").classList.add("rotateButton");
 }
 
 function closeNav() {
     document.getElementById("sidebar").classList.remove("openSidebar");
-    document.querySelector(".openbtn").classList.remove("rotateButton"); // Unrotate button
+    document.querySelector(".openbtn").classList.remove("rotateButton"); 
 }
 
 function toggleNav() {
@@ -35,10 +35,6 @@ function redirectToProject3() {
 function redirectToProject4() {
   window.location.href = "project2.html";
 }
-
-
-
-
 
 
 const slides = document.querySelectorAll('.slide');
@@ -74,10 +70,9 @@ function goToSlide(index) {
 function handleVideoPause() {
   const video = document.querySelector('.video-slide');
   if (video && currentIndex !== 0 && !video.paused) {
-    video.pause(); // Pause the video when it's not the current slide
+    video.pause(); //Pause the video when it's not the current slide
   }
 }
 
-// Initialize the gallery
 updateGallery();
 
