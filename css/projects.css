@@ -1,27 +1,27 @@
-.description {
+p.description + ul > li, .description {
   font-size: 25px; line-break: strict;
 }
 
 .project-title {
-  color: #dadada; font-size: 60px; text-shadow: 5px 5px 40px #4a4a4a; margin-bottom: 80px;
+  color: #dadada; font-size: 60px; text-shadow: 1px 1px 10px #4a4a4a; margin-bottom: 80px;
 }
 
 .project-subtitle {
-  color: #dadada; font-size: 40px; text-shadow: 5px 5px 40px #4a4a4a; margin-bottom: 30px;
+  color: #dadada; font-size: 40px; text-shadow: 1px 1px 10px #4a4a4a; margin-bottom: 30px;
 }
 
 .project-header {
-  color: #dadada; font-size: 32px; text-shadow: 5px 5px 40px #4a4a4a; margin-bottom: 30px;
+  color: #dadada; font-size: 32px; text-shadow: 1px 1px 10px #4a4a4a; margin-bottom: 30px;
 }
 
-p {color: #dadada;}
+li, p {color: #dadada;}
 
 .project-container {
 	width: 100%; position: absolute; top: 0; z-index: 0;
 }
 
 .project-bg-container {
-    position: absolute; top: 0; left: 0; width: 100%; height: 1600px; overflow: hidden; z-index: -1;
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: -1;
 }
 
 .project-bg {
