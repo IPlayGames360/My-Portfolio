@@ -29,11 +29,11 @@ function redirectToProject2() {
 }
 
 function redirectToProject3() {
-  window.location.href = "project2.html";
+  window.location.href = "project3.html";
 }
 
 function redirectToProject4() {
-  window.location.href = "project2.html";
+  window.location.href = "project4.html";
 }
 
 
