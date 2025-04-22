@@ -1,5 +1,10 @@
-p.description + ul > li, .description {
+.project-header + ul > li, p.description + ul > li, .description {
   font-size: 25px; line-break: strict;
+}
+
+.project-header + .description 
+{
+  padding-left: 10px;
 }
 
 .project-title {
