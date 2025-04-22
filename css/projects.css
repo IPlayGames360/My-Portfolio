@@ -122,7 +122,10 @@ li, p {color: #dadada;}
   margin: auto;
   overflow: hidden;
   aspect-ratio: 16 / 14;
-  height: auto
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery {
