@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+		integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/projects.css">
+
+	<title>Derelict</title>
+</head>
+
+<body>
+
+	<!-- Sidebar -->
+	<div id="sidebar" class="sidebar">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="./index.html#about">About</a>
+		<a href="./index.html#projects">My Projects</a>
+		<a href="./index.html#contact">Contact</a>
+	</div>
+
+	<!-- Button to open the sidebar -->
+	<button class="openbtn" onclick="openNav()">&#9776;</button>
+	<div class="openbtnText">
+		<h3>Menu</h3>
+	</div>
+
+	<div id="main">
+		<div class="project-container">
+
+			<div class="project-bg-container">
+				<!--source: https://www.freepik.com/free-vector/neon-synthwave-border-dark-purple-blog-banner-template-vector_18236361.htm#fromView=keyword&page=35&position=30&uuid=2dfbd185-60bd-4b77-b1d2-3215a83444c7&new_detail=true-->
+				<img class="project-bg" src="content/Images/project-bg.jpg">
+			</div>
+
+			<div style="padding: 80px;">
+				<button class="button-59" onclick="window.location.href='index.html';" role="button">Back</button>
+
+				<h1 class="centred project-title">Derelict</h1>
+
+				<div class="row">
+					<div class="col-6" style="height: 600px;">
+						<div class="gallery-container">
+							<div class="gallery">
+
+								<div class="slide">
+									<video controls class="video-slide">
+									  <!--<source src="content/Images/Insanely Bouncy Castle.mp4" type="video/mp4">-->
+									  Your browser does not support the video tag.
+									</video>
+								</div>
+
+								<div class="slide">
+									<img src="content/Images/placeholder.jpg" alt="...">
+								</div>
+								<div class="slide">
+									<img src="content/Images/placeholder.jpg" alt="...">
+								</div>
+								<div class="slide">
+									<img src="content/Images/placeholder.jpg" alt="...">
+								</div>
+								<div class="slide">
+									<img src="content/Images/placeholder.jpg" alt="...">
+								</div>
+								<div class="slide">
+									<img src="content/Images/placeholder.jpg" alt="...">
+								</div>
+								<div class="slide">
+									<img src="content/Images/placeholder.jpg" alt="...">
+								</div>
+								<div class="slide">
+									<img src="content/Images/placeholder.jpg" alt="...">
+								</div>
+							</div>
+							
+							<button class="arrow left" onclick="prevSlide()">&#10094;</button>
+							<button class="arrow right" onclick="nextSlide()">&#10095;</button>
+							<div class="dots">
+								<span class="dot" onclick="goToSlide(0)"></span>
+								<span class="dot" onclick="goToSlide(1)"></span>
+								<span class="dot" onclick="goToSlide(2)"></span>
+								<span class="dot" onclick="goToSlide(3)"></span>
+								<span class="dot" onclick="goToSlide(4)"></span>
+								<span class="dot" onclick="goToSlide(5)"></span>
+								<span class="dot" onclick="goToSlide(6)"></span>
+								<span class="dot" onclick="goToSlide(7)"></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-6" style="padding-left: 40px; padding-top: 150px; padding-right: 120px;">
+						<p class="description">
+							Derelict is a game developed by me and five of my peers as our capstone project during college. The project spanned three months—three weeks of documentation followed by ten weeks of development.
+							Derelict is a roguelike first-person shooter set aboard a rusted, derelict spaceship overrun by hostile robots. The core mechanic revolves around programmable weapons that can be modified to create destructive and highly personalized loadouts.
+							We drew inspiration from Doom, Noita, and Quake, believing a fusion of their mechanics and style would result in a unique experience we hadn’t seen done before.
+						</p>
+					</div>
+
+					<div class="project-colour-bar" style="margin-top: 40px; margin-bottom: 40px;"></div>
+
+					<div class="col-12">
+						<h4 class="centred project-subtitle">About this game</h1>
+							<div>
+								<p class="description">Game Features:</p>
+								<ul>
+									<li>Five distinct weapons and 37 unique modifiers, allowing players to create wild and strategic weapon combinations.</li>
+									<li>A dynamic weapon loadout system where modifiers run in sequence—from bottom to top—giving players precise control over how their weapons behave.</li>
+									<li>MModifiers range from altering projectile stats and types to passive effects like healing, and even meta modifiers that duplicate the effect of previous ones.</li>
+									<li>Procedurally generated map for a unique map layout for each playthrough.</li>
+									<li>Steam Audio integration providing a realistic 3D audio experience to enhance immersion.</li>
+									<li>Intelligent AI enemies that react to combat situations—taking cover when low on ammo or holding angles for tactical advantage.</li>
+								</ul>
+									
+								<p class="description">My Contributions</p>
+								<p class="description" style="padding-left: 10px;">I worked on various aspects of the project, including programming, modeling, and texturing.</p>
+								<ul>
+									<li>Early in development, I implemented the base movement, weapon pickup, shooting, reloading, and inventory system for the player. These systems were later iterated on and replaced.</li>
+									<li>I designed and implemented the main menu scene, including its layout, transitions, and navigation to settings and credits.</li>
+									<li>I modeled all five weapons, created all 37 modifier icons, and designed multiple environmental textures, such as wall textures and floor panels.</li>
+									<li>I also modeled and textured the in-game chest containers.</li>
+									<li>On the UI side, I created the HUD health bar and the weapon ammo display.</li>
+								</ul>
+
+							</div>
+					</div>
+
+					<div class="project-colour-bar" style="margin-top: 40px; margin-bottom: 40px;"></div>
+
+					<div class="col-12">
+						<h4 class="centred project-subtitle" style="margin-bottom: 40px;">Download & Play</h1>
+						<div class="row">
+							
+							<div class="col-3 offset-3">
+								<a href="" class="button-59" role="button">Github download</a>
+							</div>
+
+							<div class="col-3 offset-1">
+								<a href="https://rekttangle.itch.io/insanely-bouncy-castle" class="button-59" role="button">Itch.io to play</a>
+							</div>
+
+						</div>
+						
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<script src="js/javasScript.js"></script>
+
+</body>
+
+</html>

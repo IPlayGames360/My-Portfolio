@@ -21,19 +21,19 @@ function toggleNav() {
 
 
 function redirectToProject1() {
-    window.location.href = "project1.html";
+    window.location.href = "InsanelyBouncyCastle.html";
 }
 
 function redirectToProject2() {
-  window.location.href = "project2.html";
+  window.location.href = "BendIntoShape.html";
 }
 
 function redirectToProject3() {
-  window.location.href = "project3.html";
+  window.location.href = "Derelict.html";
 }
 
 function redirectToProject4() {
-  window.location.href = "project4.html";
+  window.location.href = "projectEmpty.html";
 }
 
 
