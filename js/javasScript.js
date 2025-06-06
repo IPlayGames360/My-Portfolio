@@ -19,7 +19,6 @@ function toggleNav() {
     }
 }
 
-
 function redirectToProject1() {
     window.location.href = "InsanelyBouncyCastle.html";
 }
@@ -35,7 +34,6 @@ function redirectToProject3() {
 function redirectToProject4() {
   window.location.href = "projectEmpty.html";
 }
-
 
 const slides = document.querySelectorAll('.slide');
 const dots = document.querySelectorAll('.dot');
@@ -75,4 +73,3 @@ function handleVideoPause() {
 }
 
 updateGallery();
-

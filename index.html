@@ -19,14 +19,16 @@
   <!-- Sidebar -->
   <div id="sidebar" class="sidebar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="index.html">Home</a>
-    <a href="#about">About</a>
-    <a href="#projects">My Projects</a>
-    <a href="#contact">Contact</a>
+    <a href="index.html" onclick="closeNav()">Home</a>
+    <a href="#about" onclick="closeNav()">About</a>
+    <a href="#projects" onclick="closeNav()">My Projects</a>
+    <a href="#contact" onclick="closeNav()">Contact</a>
+    <h3 style="padding: 20px 0 0 20px; color: rgb(213, 212, 255);">Fun:</h3>
+    <a href="OldSite/indexOld.html">Website V1</a>
   </div>
 
   <!-- Button to open the sidebar -->
-  <button class="openbtn" onclick="openNav()">&#9776;</button>
+  <button class="openbtn" onclick="toggleNav()">&#9776;</button>
 	<div class="openbtnText">
 		<h3>Menu</h3>
 	</div>
@@ -121,7 +123,7 @@
               <div class="colour-bar"></div>          
             </div>            
             
-            <div class="col-12 project-box">
+            <!--<div class="col-12 project-box">
               <div class="proj-box-inner" onclick="redirectToProject2()">
                 <div class="row" style="height: inherit;">
                   <div class="col-5 title-container">
@@ -131,16 +133,12 @@
                     <img class="hover-image" src="Images/placeholder.jpg" alt="Project image" />
                   </div>
                 </div>
-
               </div>
               <div class="colour-bar"></div>          
-            </div>
+            </div>-->
 
           </div>
-
         </div>
-
-        
       </div>
 
       <div class="row call-to-action" id="contact">
@@ -159,9 +157,7 @@
             <a href="https://www.linkedin.com/in/thomas-diraddo-75173b328/" target="_blank" class="email-button">
               Linkedin
             </a>
-
           </div>
-          
         
         </div>
       </div>

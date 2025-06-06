@@ -166,7 +166,7 @@ body {
     width: 101%;
     z-index: -100;
     position: absolute;
-    height: 180%;
+    height: 156%;
     object-position: center;
 }
 
@@ -189,7 +189,7 @@ body {
 }
 
 .sidebar a {
-	padding: 8px 8px 8px 32px; text-decoration: none; font-size: 25px; color: white; display: block; transition: 0.3s;
+	padding: 8px 8px 8px 32px; text-decoration: none; font-size: 25px; color: white; display: block; transition: 0.3s; min-width: 175px;
 }
 
 .sidebar a:hover {
@@ -197,7 +197,7 @@ body {
 }
 
 .sidebar .closebtn {
-	position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px;
+	position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px; min-width: 0;
 }
   
 .openbtn {
